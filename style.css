@@ -4,11 +4,12 @@ text-align: center;
 
 .container {
 max-width: 1200px;
+margin:25px;
 }
 
 .clearfix {
     background-color: black;
-    width: 350px;
+    width: 400px;
     height: 100px;
     display: inline-block;
     margin: 15px;
@@ -35,7 +36,7 @@ h1 {
 
 p {
     font-family: Fredoka;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
     text-align: left;
     line-height: 10px;
