@@ -1,0 +1,36 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    clear:both;
+    display: block;
+}
+
+
+header {
+text-align: center;
+
+}
+
+
+h1 {
+    font-family: Fredoka;
+    color: #e53170;
+    text-align: center;
+}
+
+p {
+    font-family: Fredoka;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Fredoka;
+    font-size: 18px;
+}
