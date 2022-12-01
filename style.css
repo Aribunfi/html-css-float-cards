@@ -1,15 +1,17 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+body {
+text-align: center;
+}
+
+.container {
+max-width: 1200px;
 }
 
 .clearfix {
-
     background-color: black;
     width: 350px;
-    height: 150px;
+    height: 100px;
     display: inline-block;
+    margin: 15px;
 }
 
 
@@ -22,7 +24,6 @@ box-sizing: border-box;
 
 header {
 text-align: center;
-
 }
 
 
@@ -34,10 +35,10 @@ h1 {
 
 p {
     font-family: Fredoka;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-weight: 500;
     color: white;
+    text-align: left;
+    line-height: 10px;
 }
 
 
@@ -45,11 +46,16 @@ h2 {
     font-family: Fredoka;
     font-size: 18px;
     color: white;
+    display: inline;
 }
 
 img {
     width: 100px;
     float: left;
     max-width: 100%;
+    
 }
 
+.email {
+    color:rgb(0, 136, 255);
+}
